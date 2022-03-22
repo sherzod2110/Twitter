@@ -1,0 +1,45 @@
+
+.nav-section {
+  position: fixed;
+  margin-left: -200px;
+}
+
+
+.navbar__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 37px;
+}
+
+.navbar__item {
+  margin-top: 20px;
+}
+
+.navbar__link {
+  max-width: 3px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  transition: all 0.5s ease;
+}
+
+.navbar__link:hover {
+  color: #ff0000;
+  transform: scale(1.1);
+}
+
+
+.navbar__img {
+  margin-right: 11px;
+  transition: all 0.5s ease;
+}
+
+.navbar__img:hover {
+  transform: scale(1.2);
+  filter: invert(13%) sepia(86%) saturate(5660%) hue-rotate(358deg) brightness(100%) contrast(113%);
+}

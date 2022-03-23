@@ -59,3 +59,39 @@ main {
   transform: scaleY(1);
 }
 
+.box__inner-box-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.hero__inner-spn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 10px;
+  position: relative;
+}
+
+.hero__inner-spn::before {
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  width: 17px;
+  height: 4px;
+  background-image: url("../img/Vector\(10\).svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+
+.hero__inner-spn-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+  padding-left: 10px;
+}

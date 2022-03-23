@@ -2,21 +2,15 @@ main {
   display: flex;
   margin-left: 250px;
   margin-left: -85px;
-  // position: relative;
 }
 
 .box__inner {
-  // position: fixed;
-  width: 200px;
+  max-width: 200px;
   padding-top: 20px;
 }
 
 .box {
   display: flex;
-  // position: fixed;
-  // position: auto;
-  // height: 100vh;
-  // overflow: visible;
 }
 
 

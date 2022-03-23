@@ -1694,9 +1694,10 @@ main {
     width: 180px;
   }
   .hero__imgg {
-    width: 145px;
+    width: 164px;
     height: auto;
-    margin-top: 20px;
+    margin-left: -22px;
+    margin-top: 8px;
   }
   .hero__text-name {
     max-width: 105px;

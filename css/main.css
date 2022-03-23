@@ -1068,14 +1068,11 @@ main {
 
 @media only screen and (max-width: 1242px) {
   .menu-list {
-    width: 605px;
+    width: 847px;
     height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 105px;
+    margin-left: 2px;
   }
   .box__inner {
     display: none;

@@ -162,7 +162,7 @@
   left: 20px;
   width: 20px;
   height: 20px;
-  background-image: url("../../img/Group\(2\).svg");
+  background-image: url("../img/Group\(2\).svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -183,7 +183,7 @@
   left: 15px;
   width: 18px;
   height: 20px;
-  background-image: url("../../img/Group\(3\).svg");
+  background-image: url("../img/Group\(3\).svg");
   background-repeat: no-repeat;
   content: "";
   opacity: 0.6;
@@ -203,7 +203,7 @@
   position: absolute;
   width: 21px;
   height: 20px;
-  background-image: url("../../img/Group1.svg");
+  background-image: url("../img/Group1.svg");
   background-repeat: no-repeat;
   content: "";
   top: 2px;
@@ -443,7 +443,6 @@
 
 @include breakpoint-down(1458px) {
   .box__inner {
-    // display: none;
     margin-left: 125px;
   }
   .form {
@@ -457,15 +456,12 @@
 
 @include breakpoint-down(1242px) {
   .menu-list {
-    width: 605px;
+    width: 847px;
     height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 105px;
-  }
+    margin-left: 2px;
+}
   .box__inner {
     display: none;
   }
@@ -502,7 +498,7 @@
     position: absolute;
     width: 21px;
     height: 20px;
-    background-image: url(../../img/Group1.svg);
+    background-image: url("../img/Group1.svg");
     background-repeat: no-repeat;
     content: "";
     top: 2px;
@@ -561,8 +557,6 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;

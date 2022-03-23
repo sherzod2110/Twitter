@@ -752,7 +752,7 @@ main {
   left: 20px;
   width: 20px;
   height: 20px;
-  background-image: url("../../img/Group(2).svg");
+  background-image: url("../img/Group(2).svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -773,7 +773,7 @@ main {
   left: 15px;
   width: 18px;
   height: 20px;
-  background-image: url("../../img/Group(3).svg");
+  background-image: url("../img/Group(3).svg");
   background-repeat: no-repeat;
   content: "";
   opacity: 0.6;
@@ -793,7 +793,7 @@ main {
   position: absolute;
   width: 21px;
   height: 20px;
-  background-image: url("../../img/Group1.svg");
+  background-image: url("../img/Group1.svg");
   background-repeat: no-repeat;
   content: "";
   top: 2px;
@@ -1050,6 +1050,18 @@ main {
   display: none;
 }
 
+.menu__list-img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.menu__list-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: invert(22%) sepia(10%) saturate(1038%) hue-rotate(157deg) brightness(95%) contrast(83%);
+          filter: invert(22%) sepia(10%) saturate(1038%) hue-rotate(157deg) brightness(95%) contrast(83%);
+}
+
 .hero__hero {
   max-width: 400px;
 }
@@ -1108,7 +1120,7 @@ main {
     position: absolute;
     width: 21px;
     height: 20px;
-    background-image: url(../../img/Group1.svg);
+    background-image: url("../img/Group1.svg");
     background-repeat: no-repeat;
     content: "";
     top: 2px;

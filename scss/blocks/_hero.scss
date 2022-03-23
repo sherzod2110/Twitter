@@ -442,8 +442,8 @@
 }
 
 .menu__list-img:hover {
-  transform: scale(1.1);
-  filter: invert(22%) sepia(10%) saturate(1038%) hue-rotate(157deg) brightness(95%) contrast(83%);
+  transform: scale(1.2);
+  filter: invert(42%) sepia(40%) saturate(4744%) hue-rotate(337deg) brightness(97%) contrast(90%);
 }
 
 
@@ -471,6 +471,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-left: 2px;
+    display: flex;
 }
   .box__inner {
     display: none;
@@ -478,6 +479,9 @@
 }
 
 @include breakpoint-down(953px) {
+  .menu-list {
+    width: 738px;
+  }
   .hero__img-bobur {
     width: 740px;
   }
@@ -768,6 +772,12 @@
 }
 
 @include breakpoint-down(647px) {
+  .hero__text-bobor {
+    font-size: 16px;
+    max-width: 337px;
+    padding-top: 6px;
+    margin-left: 0px;
+  } 
   .hero__img-bobur {
     width: 468px;
     height: auto;
@@ -798,6 +808,8 @@
   } 
   .hero_text-abutech {
     font-size: 16px;
+    margin: 1px;
+    color: darkgray;
   }
   .hero_text-abutech-link {
     font-size: 16px;
@@ -863,6 +875,10 @@
   .hero__spn {
     font-size: 15px;
   }
+  .hero__link-bobur {
+    font-size: 15px;
+    margin-left: -11px;
+  }
 }
 
 @include breakpoint-down(559px) {
@@ -897,7 +913,7 @@
     width: 365px;
   }
   .hero__span-yil {
-    padding-left: 4px;
+    padding-left: 1px;
     font-size: 15px;
     font-weight: 500;
   }
@@ -978,6 +994,12 @@
 }
 
 @include breakpoint-down(461px) {
+  .hero__text-bobor {
+    margin-left: -67px;
+    font-size: 16px;
+    width: 255px;
+    text-align: center;
+  }
   .hero__img-bobur {
     width: 319px;
     height: auto;
